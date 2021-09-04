@@ -15,18 +15,25 @@ void add_product(product added_pro);
   //void show_add_product(product added_pro);
 void Admin_menu(){
  int option;
-	switch(option)
-	{
-		system("cls");
-	case 1: 
-	add_product(add_pro);
-	break;
-	
-	case 2: 
-	show_add_product(add_pro);
-	break;
-	
-	//case 3:
+system("cls");
+	cout<<"\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
+	cout<<"\n\tPress 1 to ADD PRODUCT";
+	cout<<"\n\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
+	 
+	cout<<"\n\n\tOption: ";
+	cin>>option;
+if(option==1){
+added_product(add_pro);
+}
+system("cls");
+	cout<<"\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
+	cout<<"\n\tPress 1 to ADD PRODUCT";
+	cout<<"\n\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
+	 
+	cout<<"\n\n\tOption: ";
+	cin>>option;
+if(option==2){
+show_add_product(add_pro);
 }
  
 }
@@ -34,16 +41,7 @@ int main(){
 int option;
 
 	
-	system("cls");
-	cout<<"\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
-	cout<<"\n\tPress 1 to ADD PRODUCT";
-	cout<<"\n\tPress 2 to DISPLAY ALL PRODUCTS";
-//	cout<<"\n\tPress 3 to DELETE;
-	cout<<"\n\tPress 4 to GO BACK TO MAIN MENU";
-	cout<<"\n\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
-	 
-	cout<<"\n\n\tOption: ";
-	cin>>option;
+	
 	Admin_menu();
 }
 void 	add_product(product added_pro){
