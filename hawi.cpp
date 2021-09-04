@@ -27,7 +27,7 @@ added_product(add_pro);
 }
 system("cls");
 	cout<<"\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
-	cout<<"\n\tPress 1 to ADD PRODUCT";
+	cout<<"\n\tPress 2 to DISPLAY PRODUCT";
 	cout<<"\n\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
 	 
 	cout<<"\n\n\tOption: ";
